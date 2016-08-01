@@ -1,5 +1,5 @@
 #########################################################
-# ICPSR "Advanced Maximum Likelihood" 2015 - Survival
+# ICPSR "Advanced Maximum Likelihood" 2016 - Survival
 #
 # Day four materials.
 #
@@ -13,7 +13,7 @@ library(survival)
 ##############################
 # ONeal-Russett data redux...
 
-ORURL<-"https://raw.githubusercontent.com/PrisonRodeo/ICPSR-2015-git/master/Data/OR.csv"
+ORURL<-"https://raw.githubusercontent.com/PrisonRodeo/ICPSR-2016-git/master/Data/OR.csv"
 temp<-getURL(ORURL)
 OR<-read.csv(textConnection(temp))
 

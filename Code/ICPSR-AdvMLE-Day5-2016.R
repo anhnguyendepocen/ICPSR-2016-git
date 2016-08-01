@@ -1,5 +1,5 @@
 #########################################################
-# ICPSR "Advanced Maximum Likelihood" 2015 - Survival
+# ICPSR "Advanced Maximum Likelihood" 2016 - Survival
 #
 # Day five materials.
 #
@@ -51,7 +51,7 @@ dev.off()
 
 # Real example: SCOTUS
 
-scotusURL<-"https://raw.githubusercontent.com/PrisonRodeo/ICPSR-2015-git/master/Data/scotus.csv"
+scotusURL<-"https://raw.githubusercontent.com/PrisonRodeo/ICPSR-2016-git/master/Data/scotus.csv"
 temp<-getURL(scotusURL)
 scotus<-read.csv(textConnection(temp))
 rm(temp)
